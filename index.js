@@ -16,7 +16,7 @@ class Svg{
         this.textElement = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`
     }
     setShapeElement(shape){
-        this.ShapeElement = shape.render()
+        this.shapeElement = shape.render()
     }
 }
 
@@ -82,7 +82,7 @@ async function init() {
     user_font_color = answers["text-color"];
     console.log("User font color: [" + user_font_color + "]");
 
-    user_shape_color = answers.shape;
+    user_shape_color = answers["shape-color"];
     console.log("User shape color: [" + user_shape_color + "]");
 
     user_shape_type = answers["pixel-image"];
