@@ -10,10 +10,10 @@ class Svg{
     }
     render(){
         
-        return `<svg version="1.1" xmlns="https://www.w3.org/TR/SVG2/" width="300" height="200">${this.shapeElement}${this.textElement}</svg>`
+        return `<svg version="1.1" xmlns="https://www.w3.org/TR/SVG2/" width="300" height="300">${this.shapeElement}${this.textElement}</svg>`
     }
     setTextElement(text, color){
-        this.textElement = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`
+        this.textElement = `<text x="150" y="150" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`
     }
     setShapeElement(shape){
         this.shapeElement = shape.render()
@@ -110,8 +110,8 @@ async function init() {
 
     // This will create the new logo which will add the shape and text elements 
     var svg = new Svg();
-    svg.setTextElement(user_text, user_font_color);
     svg.setShapeElement(user_shape);
+    svg.setTextElement(user_text, user_font_color);
     svgString = svg.render();
 
     // I will then need to log my shape

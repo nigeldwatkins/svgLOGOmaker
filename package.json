@@ -4,9 +4,7 @@
   "description": "User input that generates a logo.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+    "test": "jest",
     "type": "git",
     "url": "git+https://github.com/nigeldwatkins/svgLOGOmaker.git"
   },
