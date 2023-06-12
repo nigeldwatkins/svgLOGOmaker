@@ -27,22 +27,22 @@ const questions = [
     {
         type: "input",
         name: "text",
-        messgae:"TEXT: Enter up to 3 Characters:",
+        message:"TEXT: Enter up to 3 Characters:",
     },
     {
         type: "input",
         name: "text-color",
-        messgae:"TEXT COLOR: Type in a color, this could be a keyword or hexadecimal number:",
+        message:"TEXT COLOR: Type in a color, this could be a keyword or hexadecimal number:",
     },
     {
         type: "input",
         name: "shape-color",
-        messgae:"Color of Shape: Type in a color, this could be a keyword or hexadecimal number:",
+        message:"Color of Shape: Type in a color, this could be a keyword or hexadecimal number:",
     },
     {
         type: "list",
         name: "pixel-image",
-        messgae:"Which pixel image would you like to use for your logo?",
+        message:"Which pixel image would you like to use for your logo?",
         choices: ["Circle", "Square", "Triangle"],
     }
 ];
