@@ -1,0 +1,6 @@
+<!--You will need to save this with a different name and into the examples folder, if you dont it will be over written by a new logo-->
+            <svg version="1.1" xmlns="https://www.w3.org/TR/SVG2/" width="300" height="200">
+                <g><polygon height="100%" width="100%" points="0,200 300,200 150,0" fill="Grey"></g>
+                <g><text x="150" y="140" font-size="60" text-anchor="middle" fill="Teal">HEY</text></g>
+            </svg>
+            

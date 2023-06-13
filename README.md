@@ -6,7 +6,7 @@ In the video below I demonstrate how to operate the JavaScript application, you 
 <br>Review the video to see how to function the application:
 
 <br>Link to the Svg logo generator:
-
+<br>Link: https://drive.google.com/file/d/1DE6YMRIk0zxlISwHbLOmXdt2CXJPUqlR/view  
 
 ## Description
 This JavaScript appplication generates a svg logo based on the input from the user. A prompt of questions will appear once the user insert the command `node index.js` into the command line, once the questions is complete  a svg logo will be created with the information provided.
