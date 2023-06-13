@@ -9,16 +9,16 @@ class Svg{
         this.shapeElement = ''
     }
     render(){
-        
+        // Put the text and shape into different group tags this way my text will render on the shape instead of behind
         return `
-            <svg version="1.1" xmlns="https://www.w3.org/TR/SVG2/" width="300" height="300">
+            <svg version="1.1" xmlns="https://www.w3.org/TR/SVG2/" width="300" height="200">
                 <g>${this.shapeElement}</g>
                 <g>${this.textElement}</g>
             </svg>
             `;
     }
     setTextElement(text, color){
-        this.textElement = `<text x="150" y="150" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`
+        this.textElement = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`
     }
     setShapeElement(shape){
         this.shapeElement = shape.render()
